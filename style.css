@@ -1,0 +1,38 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Gallery Cards */
+.card img {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+}
+
+/* Modal */
+#artModal img {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+/* Filter Buttons */
+.filter-btn {
+  margin: 0 5px;
+}
+
+/* Artist Bio Section */
+#artists .border {
+  background: #fff;
+  transition: transform 0.3s ease;
+}
+
+#artists .border:hover {
+  transform: translateY(-5px);
+}
